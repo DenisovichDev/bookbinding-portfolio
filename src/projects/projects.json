@@ -1,0 +1,5 @@
+{
+  "layout": "project.11ty.js",
+  "tags": "project",
+  "permalink": "/projects/{{ page.fileSlug }}/"
+}

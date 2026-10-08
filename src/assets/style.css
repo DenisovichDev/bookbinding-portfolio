@@ -1,0 +1,451 @@
+/* Change the palette and dimensions here. No external fonts or CSS dependencies. */
+:root {
+    --paper: #f8f7f3;
+    --ink: #2a302c;
+    --muted: #66695f;
+    --line: #d7d8cf;
+    --accent: #485c48;
+    --width: 1160px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 18px/1.7 Georgia, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 6px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.shell {
+    max-width: calc(var(--width) + 96px);
+    margin: auto;
+    padding: 0 48px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 34px 0 29px;
+    border-bottom: 1px solid var(--line);
+}
+
+.identity {
+    font-size: 24px;
+    line-height: 1.3;
+    text-decoration: none;
+}
+
+.identity span {
+    display: block;
+    margin-top: 7px;
+    font: 11px/1.5 Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .17em;
+    color: var(--muted);
+}
+
+nav {
+    font: 14px/1.6 Arial, sans-serif;
+}
+
+.site-header nav {
+    display: flex;
+    gap: 30px;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+.site-header nav a[aria-current] {
+    border-bottom: 1px solid var(--ink);
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: clamp(38px, 5.4vw, 68px);
+    letter-spacing: -.035em;
+    line-height: 1.12;
+    margin-bottom: 24px;
+    text-wrap: balance;
+}
+
+.introduction {
+    padding: 75px 0 65px;
+    max-width: 760px;
+}
+
+.eyebrow {
+    display: block;
+    font: 11px/1.6 Arial, sans-serif;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 20px;
+}
+
+.lede {
+    font-size: 21px;
+    line-height: 1.65;
+    max-width: 650px;
+    color: var(--muted);
+    margin-bottom: 0;
+}
+
+.section-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+    margin-bottom: 27px;
+}
+
+.section-heading h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.section-heading span,
+.demo-note,
+figcaption,
+.card-meta,
+dt,
+.site-footer {
+    font: 12px/1.6 Arial, sans-serif;
+    color: var(--muted);
+}
+
+.demo-note {
+    margin: 0 0 26px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 50px 38px;
+}
+
+.project-card a {
+    text-decoration: none;
+}
+
+.card-image {
+    background: #eeede7;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 18px;
+    margin: 17px 0 4px;
+}
+
+.card-heading h3 {
+    font-size: 25px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.card-heading span {
+    font: 17px Arial, sans-serif;
+}
+
+.project-card a:hover h3 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.card-meta {
+    margin: 0;
+}
+
+.card-meta span {
+    padding: 0 7px;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid var(--line);
+    padding: 25px 0 35px;
+    margin-top: 85px;
+}
+
+.back-link {
+    display: inline-block;
+    font: 12px/1.6 Arial, sans-serif;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.project-header {
+    padding: 40px 0;
+    max-width: 850px;
+}
+
+.project-header .demo-note {
+    margin: 20px 0 0;
+}
+
+.hero-figure img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    background: #eeede7;
+}
+
+figcaption {
+    padding-top: 12px;
+    max-width: 780px;
+}
+
+.project-body {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 65px;
+    margin: 55px 0;
+}
+
+dl {
+    margin: 0;
+}
+
+dl div {
+    margin-bottom: 23px;
+}
+
+dt {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.prose {
+    max-width: 720px;
+}
+
+.prose h2 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin: 38px 0 17px;
+    letter-spacing: -.02em;
+}
+
+.prose h2:first-child {
+    margin-top: 0;
+}
+
+.prose p {
+    margin-bottom: 24px;
+}
+
+.prose .essay-figure {
+    margin: 35px 0;
+}
+
+.prose .essay-figure img {
+    background: #eeede7;
+}
+
+.project-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 30px;
+    border-top: 1px solid var(--line);
+    padding-top: 25px;
+}
+
+.project-navigation a {
+    text-decoration: none;
+}
+
+.project-navigation a:last-child {
+    text-align: right;
+}
+
+.project-navigation .eyebrow {
+    margin-bottom: 6px;
+    font-size: 10px;
+}
+
+.about-page {
+    margin: 70px auto 0;
+}
+
+.skip {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    transform: translateY(-160%);
+    background: var(--paper);
+    padding: 8px;
+    z-index: 10;
+}
+
+.skip:focus {
+    transform: none;
+}
+
+@media(max-width:760px) {
+    .shell {
+        padding: 0 24px;
+    }
+
+    .site-header {
+        padding: 24px 0;
+    }
+
+    .identity {
+        font-size: 22px;
+    }
+
+    .introduction {
+        padding: 52px 0 45px;
+    }
+
+    .lede {
+        font-size: 19px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .card-heading h3 {
+        font-size: 24px;
+    }
+
+    .project-body {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 25px;
+    }
+
+    .site-footer {
+        flex-wrap: wrap;
+        margin-top: 55px;
+    }
+
+    .project-header {
+        padding: 30px 0;
+    }
+
+    .project-navigation {
+        align-items: start;
+    }
+
+    .project-navigation a {
+        max-width: 48%;
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+@media print {
+
+    .site-header nav,
+    .back-link,
+    .project-navigation,
+    .skip {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    .shell {
+        padding: 0;
+    }
+
+    .project-body {
+        display: block;
+    }
+
+    figure {
+        break-inside: avoid;
+    }
+}
