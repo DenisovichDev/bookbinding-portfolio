@@ -1,28 +1,19 @@
 ---
 title: "Tiny Books from Old Atlas"
 description: "Small pamphlet bound books from old atlas that takes an evening to finish, and makes for a brilliant gift"
-year: "2026"
+finished: "October 2025"
 order: 3
 structure: "Pamphlet binding"
-materials: "Add your paper, covering material, thread, and boards."
-dimensions: "Add height × width × thickness, in mm."
-category: "Structural studies"
+materials: "Card-stock, atlas pages, paper and thread"
+size: "IDK, A7 or something"
 cover: "/assets/images/map01.png"
-coverAlt: "Abstract book illustration used as a photograph placeholder."
-coverCaption: "Opening image placeholder — replace with a photograph of your finished binding."
-sample: true
+sample: false
 draft: false
 ---
-## The idea
 
-Use this space to introduce the project. What did you want to make, and why? Mention the text you bound, a structure you wanted to explore, or a material that suggested a particular approach.
+This is an age old idea, a lot of people have done it. One thing I had done, like, weeks before starting this project was to laminate the maps with cardstock. That was trickier than I expected it to be. The paper was too thin to handle, so I used starch with PVA to make it a bit forgiving. If you don't know, mix dires a bit slower than straight PVA (while adding more moisture, causing warping).
 
-## Making the binding
-
-Describe the decisions that shaped the book. You might discuss folding and sewing, the choice of boards, covering, or how the binding behaves when opened. Keep the details that another binder—or a curious visitor—would find interesting.
 
 {% figure "/assets/images/map02.png", "Placeholder for a photograph showing construction details.", "Replace this image with a close view of the sewing, spine, or board attachment." %}
 
-## Looking back
-
-What worked well? What would you change in another version? A small observation about the process makes a project page feel personal and useful.
+I originally made this as a gift for my cousins. They were actually quite pleased. It's always tricky making books as gifts, almost always you feel like the person does not appreciate it enough to justify all the hardwork that you put into it. However, that's most certainly just in your head. But to not feel like shit every time you gift something handmade to someone, you can always make sure you didn't actually spend an enormous amount of time and effort into it. Small pamphlets like these look exceptionally great (if done right) given the little time it takes to make it. So I think it makes for a perfect casual gift.

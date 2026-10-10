@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 <div class="about-page prose">
-<p class="eyebrow">Behind the books</p>
-<h1>About the binder</h1>
+<p class="eyebrow">The Binder</p>
+<h1>About Me</h1>
 <p class="lede">A place for the work, and the things learned in making it.</p>
 <p class="demo-note">Replace this page with your own introduction before publishing.</p>
 

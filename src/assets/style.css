@@ -449,3 +449,14 @@ dd {
         break-inside: avoid;
     }
 }
+
+.shell {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}

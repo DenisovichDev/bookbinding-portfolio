@@ -1,32 +1,26 @@
 ---
 title: "Repairing and Rebinding Julius Caesar"
 description: "Account of how I repaired nad rebound my grandfather's copy of Julius Caesar from the 60s."
-year: "2025"
-order: 2
+finished: "September 2025"
+order: 1
 structure: "Square-back Cased Binding"
-materials: "Add your paper, covering material, thread, and boards."
-dimensions: "Add height × width × thickness, in mm."
-category: "Structural studies"
+materials: "Handmade buckram, marbled paper, wheat starch adhesive"
+size: "A5"
 cover: "/assets/images/jc01.png"
-coverAlt: "Photograph of the final Julius Caesar book."
-coverCaption: "The finished book"
-sample: true
+sample: false
 draft: false
 ---
-## The idea
 
-Use this space to introduce the project. What did you want to make, and why? Mention the text you bound, a structure you wanted to explore, or a material that suggested a particular approach.
+I restored and rebound my late grandfather’s personal Julius Caesar from the 60s. This was a project that was very personal to me, and I worked on it for several months (in-progress photos towards the end). The original book had a completely destroyed spine, torn pages, bunny years and squished up bugs from several decades ago. I always wanted to work on a project like this so I gathered some courage and took the book apart.
 
-## Making the binding
 
-Describe the decisions that shaped the book. You might discuss folding and sewing, the choice of boards, covering, or how the binding behaves when opened. Keep the details that another binder—or a curious visitor—would find interesting.
+## The Process
 
-{% figure "/assets/images/jc02.png", "Placeholder for a photograph showing construction details.", "Spine label, doesn't this look cool" %}
+I repaired every single leaf one by one, sewed them up them up into signatures again, added sewn endbands, attached made endpapers, and finally bound it into a half bound cloth covered book. I attached a label because that’s what I felt suited it the most and here it is.
 
-{% figure "/assets/images/jc03.png", "Placeholder for a photograph showing construction details.", "Spine label, doesn't this look cool" %}
+{% figure "/assets/images/jc02.png" %}
 
-{% figure "/assets/images/jc06.png", "Placeholder for a photograph showing construction details.", "Spine label, doesn't this look cool" %}
+{% figure "/assets/images/jc03.png" %}
 
-## Looking back
+{% figure "/assets/images/jc06.png" %}
 
-What worked well? What would you change in another version? A small observation about the process makes a project page feel personal and useful.

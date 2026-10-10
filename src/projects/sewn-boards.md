@@ -1,28 +1,29 @@
 ---
 title: "A study in sewn boards"
-description: "A sample project showing how photographs and workshop notes come together."
-year: "2026"
+description: "A beautiful and easy binding by Gary Frost."
+finished: "May 2025"
 order: 3
 structure: "Sewn boards binding"
-materials: "Add your paper, covering material, thread, and boards."
-dimensions: "Add height × width × thickness, in mm."
-category: "Structural studies"
-cover: "/assets/images/sewn-boards.svg"
-coverAlt: "Abstract book illustration used as a photograph placeholder."
-coverCaption: "Opening image placeholder — replace with a photograph of your finished binding."
-sample: true
+materials: "Card-stock, marbled cover paper, barley paper"
+size: "A6"
+cover: "/assets/images/sewn-board-1.png"
+sample: false
 draft: false
 ---
-## The idea
 
-Use this space to introduce the project. What did you want to make, and why? Mention the text you bound, a structure you wanted to explore, or a material that suggested a particular approach.
+A few examples from my studies on Gary Frost's sewn-board binding. This is probably one of the best binding structures that I have come across, given the low effort. Incidentally it's also very easy for a beginner to try.
 
-## Making the binding
+## Gallery
 
-Describe the decisions that shaped the book. You might discuss folding and sewing, the choice of boards, covering, or how the binding behaves when opened. Keep the details that another binder—or a curious visitor—would find interesting.
+{% figure "/assets/images/sewn-board-2.png", "", "" %}
 
-{% figure "/assets/images/sewn-boards.svg", "Placeholder for a photograph showing construction details.", "Replace this image with a close view of the sewing, spine, or board attachment." %}
+{% figure "/assets/images/sewn-board-4.png", "", "" %}
 
-## Looking back
+There has been a considerable amount of literature especially by Gary Frost and, most recently, Karen Hanmer. And they always seem to prefer this breakaway type spine (with or without a spine stiffener). Honestly I wasn't a big fan of that sort of spine structure at first, but now I have come to appreciate it. If you know how it works you can easily integrate it into different bindings as well (and indeed I *have* done it).
 
-What worked well? What would you change in another version? A small observation about the process makes a project page feel personal and useful.
+{% figure "/assets/images/sewn-board-3.png", "", "" %}
+{% figure "/assets/images/sewn-board-5.png", "", "" %}
+
+## Notes for next time
+
+I want to try and cover the visible bookboard at the head and tail. At the time I thought it wasn't worth it, but I have seen some really well-made sewn board pieces by others, and it really makes a big difference to hide the exposed board.

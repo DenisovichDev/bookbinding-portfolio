@@ -1,8 +1,10 @@
 {
-    "name": "Bhaswar Chakraborty",
-    "title": "Book-binding and Book-restoration",
-    "description": "Hey there, this is a collection of the bookbinding related projects that I have worked on so far, and my reflections on them.",
-    "intro": "Hobby bookbinder and artist",
+    "name": "No-Press Bindery",
+    "author": "Bhaswar Chakraborty",
+    "title": "No-Press Bindery",
+    "subtitle": "Bookbinding | Book Arts",
+    "description": "I am a hobby bookbinder, restorer and artist. This is a collection of the bookbinding related projects that I have worked on so far, and my reflections on them.",
+    "intro": "Handbound by Rishi",
     "email": "bhaswar.chakraborty@duke.edu",
-    "demo": true
+    "demo": false
 }
