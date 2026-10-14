@@ -11,7 +11,7 @@ sample: false
 draft: false
 ---
 
-I restored and rebound my late grandfather’s personal Julius Caesar from the 60s. This was a project that was very personal to me, and I worked on it for several months (in-progress photos towards the end). The original book had a completely destroyed spine, torn pages, bunny years and squished up bugs from several decades ago. I always wanted to work on a project like this so I gathered some courage and took the book apart.
+I restored and rebound my late grandfather’s personal Julius Caesar from the 60s. This was a project that was very personal to me, and I worked on it for several months (in-progress photos towards the end). The original book had a completely destroyed spine, torn pages, bunny ears and squished up bugs from several decades ago. I always wanted to work on a project like this so I gathered some courage and took the book apart.
 
 
 ## The Process

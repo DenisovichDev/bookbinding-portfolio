@@ -70,15 +70,6 @@ figure {
     text-decoration: none;
 }
 
-.identity span {
-    display: block;
-    margin-top: 7px;
-    font: 11px/1.5 Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .17em;
-    color: var(--muted);
-}
-
 nav {
     font: 14px/1.6 Arial, sans-serif;
 }
@@ -459,4 +450,52 @@ dd {
 
 main {
     flex: 1;
+}
+
+.identity {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+
+.site-logo {
+    display: block;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.identity-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.site-title {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.site-subtitle {
+    font: 11px/1.5 Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    color: var(--muted);
+}
+
+@media (max-width: 760px) {
+    .identity {
+        gap: 10px;
+    }
+
+    .site-logo {
+        width: 38px;
+        height: 38px;
+    }
+
+    .site-title {
+        font-size: 22px;
+    }
 }
